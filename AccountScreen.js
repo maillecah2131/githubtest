@@ -113,6 +113,7 @@ const AccountScreen = ({ navigation }) => {
 
         console.log('Signup response:', response.data);
    console.log('missou is the best ', response.data);
+   console.log('missou is the best ', response.data);console.log('missou is the best ', response.data);console.log('missou is the best ', response.data);console.log('missou is the best ', response.data);
         if (response.data.success) {
           const userId = response.data.data.userId;
 
